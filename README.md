@@ -13,3 +13,5 @@ This is a template repository, aimed to easily start building web applications. 
 - ESLint
 - Airbnb JavaScript Style Guide
 - Prettier
+- Jest
+- Babel
