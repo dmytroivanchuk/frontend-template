@@ -1,7 +1,10 @@
 {
   "extends": ["airbnb-base", "plugin:prettier/recommended"],
   "env": {
-    "browser": true
+    "browser": true,
+
+    // Avoid no-undef errors from ESLint by supporting jest globals
+    "jest": true
   },
   "rules": {
     // Permit webpack files to import devDependencies with no ESLint error.
